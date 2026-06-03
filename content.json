@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "name": "Amod Gehlot",
+    "title": "Amod Gehlot — itsamod.dev",
+    "description": "Software Engineer, Agentic Builder, Global Collaborator. Building warehouse systems, agentic tools, and the occasional sane workflow."
+  },
+
+  "defaults": {
+    "_help": "Initial preferences for first-time visitors. Visitors can change theme via the toggle button (saved per-browser in localStorage). fontPair: 'editorial' | 'literary' | 'terminal'. theme: 'system' | 'light' | 'dark'. density: 'compact' | 'regular' | 'comfy'.",
+    "theme": "system",
+    "accent": "#c2410c",
+    "accentOptions": ["#c2410c", "#2563eb", "#15803d", "#9333ea"],
+    "fontPair": "editorial",
+    "density": "regular"
+  },
+
+  "nav": {
+    "brand": "itsamod.dev",
+    "links": [
+      { "label": "about",    "href": "#about" },
+      { "label": "work",     "href": "#work" },
+      { "label": "projects", "href": "#projects" },
+      { "label": "global impact", "href": "#map" }
+    ]
+  },
+
+  "hero": {
+    "eyebrow": "Amod Gehlot · currently at T-Hive",
+    "headline": "I build systems that *scale*\nand teams that *ship*.",
+    "sub": ["Software Engineer", "Agentic Builder", "Global Collaborator"],
+    "cta": { "label": "See my work", "href": "#work" },
+    "links": [
+      { "icon": "github",   "label": "GitHub",   "href": "https://github.com/amod0017" },
+      { "icon": "blog",     "label": "Blog",     "href": "https://amod0017.github.io/" },
+      { "icon": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/amod0017/" }
+    ]
+  },
+
+  "about": {
+    "label": "About",
+    "photo": {
+      "id": "amod-portrait",
+      "shape": "circle",
+      "size": 132,
+      "src": "portrait.jpg",
+      "placeholder": "Drop a photo"
+    },
+    "paragraphs": [
+      "I'm a software engineer, but not one limited to just tech. I think of myself as a blend of *technology, people, and business* — that's where I do my best work. I'm genuinely a problem solver: I understand the constraints and find the best possible solution within them.",
+      "I've always worked globally — in India, the US, and across Europe and Asia through Nokia, Vanderlande, and T-Hive, with colleagues from the Netherlands, Sweden, Finland, China, and Japan. Right now I work on warehouse execution systems for AGVs and AMRs, with deep experience in storage systems and IIoT.",
+      "I've always been technology agnostic — what matters is whether it solves the problem. These days that means I work as an *agentic engineer*: managing agents, reviewing their output, and brainstorming with them — not just vibe coding.",
+      "Outside of work I'm passionate about traveling, cooking, and finding small ways to make things slightly better."
+    ]
+  },
+
+  "work": {
+    "label": "Work",
+    "items": [
+      {
+        "when": "2021 — Now",
+        "org": "Vanderlande → T-Hive",
+        "role": "Storage & Workflow Engineer · Precept & AI committee",
+        "tags": ["Camunda", "Warehouse Execution", "Storage", "AGV/AMR"],
+        "paragraphs": [
+          "Joined Vanderlande to help build a warehouse platform that was site agnostic, plug and play, and far more business focused than anything I'd touched before. Got in on Camunda and storage experience — built foundational workflow designs and ran trainings to introduce the whole team to Camunda.",
+          "When the company moved the US team to Europe, I was one of four retained out of forty for knowledge transfer. After that I had a choice — leave or join T-Hive, the new entity being spun out. I joined. At T-Hive I've integrated storage for two customers, and I'm now part of the *Precept Committee* defining company culture and policies, and the *AI Committee* figuring out how to actually use AI better as a team."
+        ]
+      },
+      {
+        "when": "2017 — 2020",
+        "org": "Honeywell",
+        "role": "Software Engineer · Atlanta",
+        "tags": ["12× Bravo", "2 Promotions", "War rooms"],
+        "paragraphs": [
+          "Big company, but the culture mostly appreciated technical delivery alongside someone willing to call out what wasn't working. I was usually the one asking the uncomfortable question — not to challenge anyone, but to figure out if what we were being asked to do actually mattered.",
+          "We delivered every time. Twelve Bravo awards across three years, two promotions, and multiple war rooms with some of the most talented people I've worked with globally. Honestly one of the biggest learning experiences of my career."
+        ]
+      },
+      {
+        "when": "2012 — 2018",
+        "org": "CampFestiva",
+        "role": "Co-founder · India",
+        "tags": ["Founding team", "Top 3 in category (IN)", "Closed by choice"],
+        "paragraphs": [
+          "Started from an ick. While leading the communication and events team for my college fest I was shocked to find websites charging money just to post event listings. Information reach should be free. Booked the domain after graduation; a few college friends joined in.",
+          "We rode the early wave of social media and grew into one of the top three platforms in this category in India — partnering with big universities but never forgetting the small ones. Every listing was free; colleges just had to mention us as an outreach partner. When social media eventually made what we'd built unnecessary, I made the conscious call to close it. It did what it was supposed to do."
+        ]
+      },
+      {
+        "when": "2011 — 2013",
+        "org": "Persistent Systems Ltd",
+        "role": "Intern → Software Engineer · India"
+      }
+    ]
+  },
+
+  "projects": {
+    "label": "Personal Projects",
+    "items": [
+      {
+        "name": "diagram-scribe",
+        "status": "Active",
+        "desc": "A CLI and Python library that turns plain English into diagrams. Describe a flow, it generates it in Excalidraw — and you can keep refining conversationally.",
+        "href": "https://github.com/amod0017/diagram-scribe"
+      },
+      {
+        "name": "contribution-logger",
+        "status": "Active",
+        "desc": "An engineering impact dashboard. Tracks proactive vs reactive work, AI adoption, and cross-service breadth — turns it into charts that tell a coherent story come review time.",
+        "href": "https://github.com/amod0017/contribution-logger"
+      },
+      {
+        "name": "ai-toolkit",
+        "status": "Growing",
+        "desc": "A collection of skills and agents for AI-assisted development. Less about using AI tools, more about building on top of them — starting with a pedantic-reader skill that stress-tests writing before it goes out.",
+        "href": "https://github.com/amod0017/ai-toolkit"
+      }
+    ]
+  },
+
+  "map": {
+    "label": "Impact map",
+    "intro": "Places where my work has shipped, or where I've worked with someone on the ground.",
+    "legendLabel": "Worked here or shipped here",
+    "_help": "Just type the place. Coords are resolved from OpenStreetMap on first load and cached in geocache.json. Add country if the city is ambiguous (e.g. 'Beaumont, USA').",
+    "cities": [
+      { "place": "Ujjain, India" },
+      { "place": "Bangalore, India" },
+      { "place": "Pune, India" },
+      { "place": "Nairobi, Kenya" },
+      { "place": "Sydney, Australia" },
+      { "place": "Beaumont, Texas, USA" },
+      { "place": "Atlanta, USA" },
+      { "place": "Salt Lake City, USA" },
+      { "place": "Detroit, USA" },
+      { "place": "Dallas, USA" },
+      { "place": "Veghel, Netherlands" },
+      { "place": "Gothenburg, Sweden" },
+      { "place": "Espoo, Finland" },
+      { "place": "Beijing, China" },
+      { "place": "Tokyo, Japan" },
+      { "place": "New York City, USA" },
+      { "place": "Rochester, NY, USA" },
+      { "place": "Vancouver, Canada" },
+      { "place": "Cairo, Egypt" },
+      { "place": "Helsinki, Finland" },
+      { "place": "London, UK" }
+    ]
+  },
+
+  "footer": {
+    "label": "Say hi",
+    "intro": "I like talking to people building real things. Reach out about warehouse software, agentic engineering, or just to compare notes.",
+    "links": [
+      { "icon": "github",   "label": "GitHub",   "href": "https://github.com/amod0017" },
+      { "icon": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/amod0017/" },
+      { "icon": "blog",     "label": "Blog",     "href": "https://amod0017.github.io/" },
+      { "icon": "mail",     "label": "Email",    "href": "mailto:amod0017@gmail.com" }
+    ],
+    "copyright": "Amod Gehlot",
+    "tagline": "Made by hand · itsamod.dev"
+  }
+}

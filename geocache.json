@@ -1,0 +1,22 @@
+{
+  "_help": "Auto-managed cache of place names → coordinates. Don't edit by hand — the site geocodes new places from content.json via OpenStreetMap (Nominatim) and stores results here. Safe to delete; it will re-resolve on next load.",
+  "places": {
+    "Ujjain, India":           { "lat": 23.179,  "lng": 75.785 },
+    "Bangalore, India":        { "lat": 12.9716, "lng": 77.5946 },
+    "Beaumont, Texas, USA":    { "lat": 30.0866, "lng": -94.1019 },
+    "Atlanta, USA":            { "lat": 33.7490, "lng": -84.3880 },
+    "Chicago, USA":            { "lat": 41.8781, "lng": -87.6298 },
+    "Dallas, USA":             { "lat": 32.7767, "lng": -96.7970 },
+    "Veghel, Netherlands":     { "lat": 51.6167, "lng": 5.5500 },
+    "Stockholm, Sweden":       { "lat": 59.3293, "lng": 18.0686 },
+    "Espoo, Finland":          { "lat": 60.2055, "lng": 24.6559 },
+    "Beijing, China":          { "lat": 39.9042, "lng": 116.4074 },
+    "Tokyo, Japan":            { "lat": 35.6762, "lng": 139.6503 },
+    "New York City, USA":      { "lat": 40.7128, "lng": -74.0060 },
+    "Rochester, NY, USA":      { "lat": 43.1566, "lng": -77.6088 },
+    "Vancouver, Canada":       { "lat": 49.2827, "lng": -123.1207 },
+    "Egypt":                   { "lat": 26.8206, "lng": 30.8025 },
+    "Helsinki, Finland":       { "lat": 60.1699, "lng": 24.9384 },
+    "London, UK":              { "lat": 51.5074, "lng": -0.1278 }
+  }
+}
