@@ -46,9 +46,10 @@
       "placeholder": "Drop a photo"
     },
     "paragraphs": [
-      "I'm a software engineer, but not one limited to just tech. I think of myself as a blend of *technology, people, and business* — that's where I do my best work. I'm genuinely a problem solver: I understand the constraints and find the best possible solution within them.",
-      "I've always worked globally — in India, the US, and across Europe and Asia through Nokia, Vanderlande, and T-Hive, with colleagues from the Netherlands, Sweden, Finland, China, and Japan. Right now I work on warehouse execution systems for AGVs and AMRs, with deep experience in storage systems and IIoT.",
-      "I've always been technology agnostic — what matters is whether it solves the problem. These days that means I work as an *agentic engineer*: managing agents, reviewing their output, and brainstorming with them — not just vibe coding.",
+      "I'm a software engineer, but not one limited to just tech. I think of myself as a blend of *technology, people, and business*. That's where I do my best work. I'm genuinely a problem solver. I understand the constraints and find the best possible solution within them.",
+      "I've always worked globally, in India, the US, and across Europe and Asia through Nokia, Vanderlande, and T-Hive, with colleagues from the Netherlands, Sweden, Finland, China, and Japan. Right now I work on warehouse execution systems for AGVs and AMRs, with deep experience in storage systems and IIoT.",
+      "I've always been technology agnostic. What matters is whether it solves the problem. These days that means I work as an agentic engineer, managing agents, reviewing their output, and brainstorming with them, not just vibe coding.",
+      "Solutions I have architected are live at various customer locations",
       "Outside of work I'm passionate about traveling, cooking, and finding small ways to make things slightly better."
     ]
   },
@@ -62,17 +63,20 @@
         "role": "Storage & Workflow Engineer · Precept & AI committee",
         "tags": ["Camunda", "Warehouse Execution", "Storage", "AGV/AMR"],
         "paragraphs": [
-          "Joined Vanderlande to help build a warehouse platform that was site agnostic, plug and play, and far more business focused than anything I'd touched before. Got in on Camunda and storage experience — built foundational workflow designs and ran trainings to introduce the whole team to Camunda.",
-          "When the company moved the US team to Europe, I was one of four retained out of forty for knowledge transfer. After that I had a choice — leave or join T-Hive, the new entity being spun out. I joined. At T-Hive I've integrated storage for two customers, and I'm now part of the *Precept Committee* defining company culture and policies, and the *AI Committee* figuring out how to actually use AI better as a team."
+          "I joined Vanderlande after deciding it was time to move on from Honeywell — sometimes cultures shift and you know when it's time. Vanderlande was building a warehouse platform that was site agnostic, plug and play, and far more business focused than anything I'd worked on before.",
+          "I got in because of my Camunda and storage experience, built foundational workflow designs, and ran training sessions to introduce the whole team to Camunda. Later moved to storage where they needed someone with hands on experience.",
+          "When the company decided to move the US team to Europe I was one of four retained out of forty for knowledge transfer. After that I had a choice — leave or join T-Hive, the new entity being spun out. I joined.",
+          "At T-Hive I've integrated storage for two customers, worked on multiple microservices which are now part of the core offering. Apart from that I'm part of the *Precept Committee* defining company culture and policies, and the *AI Committee* figuring out how to actually use AI better as a team."
         ]
       },
       {
         "when": "2017 — 2020",
         "org": "Honeywell",
-        "role": "Software Engineer · Atlanta",
-        "tags": ["12× Bravo", "2 Promotions", "War rooms"],
+        "role": "Software Engineer  -> Senior Software Engineer -> Advanced Software Engineer · Atlanta",
+        "tags": ["12× Bravo", "2 Promotions", "MultipleWar rooms"],
         "paragraphs": [
-          "Big company, but the culture mostly appreciated technical delivery alongside someone willing to call out what wasn't working. I was usually the one asking the uncomfortable question — not to challenge anyone, but to figure out if what we were being asked to do actually mattered.",
+          "At Honeywell, being a big company, I kept finding myself in situations where people needed both technical delivery and someone willing to call out what wasn't working. Most teams there had a culture that actually appreciated that.",
+          "I was usually the person asking the uncomfortable question — not to challenge anyone, but to figure out if what we were being asked to do actually mattered. I was appreciated for it most of the time.",
           "We delivered every time. Twelve Bravo awards across three years, two promotions, and multiple war rooms with some of the most talented people I've worked with globally. Honestly one of the biggest learning experiences of my career."
         ]
       },
@@ -82,8 +86,9 @@
         "role": "Co-founder · India",
         "tags": ["Founding team", "Top 3 in category (IN)", "Closed by choice"],
         "paragraphs": [
-          "Started from an ick. While leading the communication and events team for my college fest I was shocked to find websites charging money just to post event listings. Information reach should be free. Booked the domain after graduation; a few college friends joined in.",
-          "We rode the early wave of social media and grew into one of the top three platforms in this category in India — partnering with big universities but never forgetting the small ones. Every listing was free; colleges just had to mention us as an outreach partner. When social media eventually made what we'd built unnecessary, I made the conscious call to close it. It did what it was supposed to do."
+          "*CampFestiva* started from an ick. When I was leading the communication and events team for my college fest I was shocked to find websites charging money just to post event listings. That felt wrong to me — information reach should be free.",
+          "After graduation that never left my mind. I had some time, booked the domain, and a few college friends joined in. We made a strong team. We rode the early wave of social media and expanded fast, eventually becoming one of the top three platforms in this category in India — partnering with big universities but never forgetting the small ones.",
+          "Every listing was free. Colleges just had to mention us as an outreach partner, that's it. Our volunteers got real experience leading social media, outreach, content — it was never just a website. Eventually social media made what we built unnecessary, and I made the conscious call to close it. I don't regret it. It did what it was supposed to do."
         ]
       },
       {
@@ -99,20 +104,20 @@
     "items": [
       {
         "name": "diagram-scribe",
-        "status": "Active",
-        "desc": "A CLI and Python library that turns plain English into diagrams. Describe a flow, it generates it in Excalidraw — and you can keep refining conversationally.",
+        "status": "In development",
+        "desc": "A CLI tool and Python library that turns plain English descriptions into diagrams. You describe the flow, it generates it in Excalidraw — and you can keep refining conversationally. Still actively in development.",
         "href": "https://github.com/amod0017/diagram-scribe"
       },
       {
         "name": "contribution-logger",
         "status": "Active",
-        "desc": "An engineering impact dashboard. Tracks proactive vs reactive work, AI adoption, and cross-service breadth — turns it into charts that tell a coherent story come review time.",
+        "desc": "An engineering impact dashboard built because managers forget the daily grind. Tracks proactive vs reactive work, AI adoption, and cross-service breadth — and turns it into charts that tell a coherent story come performance review time.",
         "href": "https://github.com/amod0017/contribution-logger"
       },
       {
         "name": "ai-toolkit",
         "status": "Growing",
-        "desc": "A collection of skills and agents for AI-assisted development. Less about using AI tools, more about building on top of them — starting with a pedantic-reader skill that stress-tests writing before it goes out.",
+        "desc": "A growing collection of skills and agents for AI-assisted development. Less about using AI tools and more about building on top of them — starting with a pedantic-reader skill that fact-checks and stress-tests written content before it goes out.",
         "href": "https://github.com/amod0017/ai-toolkit"
       }
     ]
@@ -120,8 +125,8 @@
 
   "map": {
     "label": "Impact map",
-    "intro": "Places where my work has shipped, or where I've worked with someone on the ground.",
-    "legendLabel": "Worked here or shipped here",
+    "intro": "Places where my work has impacted customers, colleagues, or communities. It's been a global journey and I'm proud of the impact I've had across the world.",
+    "legendLabel": "Impact map",
     "_help": "Just type the place. Coords are resolved from OpenStreetMap on first load and cached in geocache.json. Add country if the city is ambiguous (e.g. 'Beaumont, USA').",
     "cities": [
       { "place": "Ujjain, India" },
@@ -150,7 +155,7 @@
 
   "footer": {
     "label": "Say hi",
-    "intro": "I like talking to people building real things. Reach out about warehouse software, agentic engineering, or just to compare notes.",
+    "intro": "I like talking to people about literally anything. I am a Yapper. I enjoy learning, sharing, and exploring new ideas. Reach out about building real things, IIOT, warehouse software, agentic engineering, cooking, your future travel plans, or just to compare notes.",
     "links": [
       { "icon": "github",   "label": "GitHub",   "href": "https://github.com/amod0017" },
       { "icon": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/amod0017/" },
@@ -158,6 +163,6 @@
       { "icon": "mail",     "label": "Email",    "href": "mailto:amod0017@gmail.com" }
     ],
     "copyright": "Amod Gehlot",
-    "tagline": "Made by hand · itsamod.dev"
+    "tagline": "Co-built with Claude · itsamod.dev"
   }
 }
